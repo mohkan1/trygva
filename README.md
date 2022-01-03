@@ -1,5 +1,5 @@
 # trygva
-Login and Signin System
+Login and Signin System with CodeIgniter 4
 
 To access the home page:
 
