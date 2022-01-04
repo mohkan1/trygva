@@ -17,7 +17,7 @@ PHP-version: 7.4.27
 
 
 Create the table:
-```
+```sql
 CREATE TABLE users (
     id int(11) NOT NULL AUTO_INCREMENT COMMENT 'Primary Key',
     name varchar(100) NOT NULL COMMENT 'Name',
