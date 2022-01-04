@@ -1,4 +1,4 @@
-# trygva
+# Trygva
 Login and Signin System with CodeIgniter 4
 
 To access the home page:
@@ -28,7 +28,7 @@ CREATE TABLE users (
     PRIMARY KEY (id)
   ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='datatable demo table' AUTO_INCREMENT=1;
   
-INSERT INTO `employees` (`id`, `name`, `phone_number`, `email`, `password`) VALUES
+INSERT INTO `users` (`id`, `name`, `phone_number`, `email`, `password`) VALUES
 (1, 'John Doe', 'pass1234', 'john@gmail.com', '12341234'),
 (2, 'Vanya Hargreeves', 'pass1234', 'vanya@gmail.com', '12341234'),
 (3, 'Luther Hargreeves', 'pass1234', 'luther@gmail.com', '12341234'),
