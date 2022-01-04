@@ -17,7 +17,7 @@ PHP-version: 7.4.27
 
 
 Create the table:
-
+```
 CREATE TABLE users (
     id int(11) NOT NULL AUTO_INCREMENT COMMENT 'Primary Key',
     name varchar(100) NOT NULL COMMENT 'Name',
@@ -36,3 +36,4 @@ INSERT INTO `employees` (`id`, `name`, `phone_number`, `email`, `password`) VALU
 (5, 'Klaus Hargreeves', 'pass1234', 'klaus@gmail.com', '12341234'),
 (6, 'Ben Hargreeves', 'pass1234', 'ben@gmail.com', '12341234'),
 (7, 'The Handler', 'pass1234', 'handler@gmail.com', '12341234');
+```
