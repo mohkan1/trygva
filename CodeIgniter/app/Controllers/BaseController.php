@@ -49,4 +49,24 @@ class BaseController extends Controller
 
         // E.g.: $this->session = \Config\Services::session();
     }
+
+    // This function makes sure that the code returns the data as json
+    public function replyBack(array $responseBody, int $code = ResponseInterface::HTTP_OK) {
+        return $this
+            ->response
+            ->setStatusCode($code)
+            ->setJSON($responseBody);
+    }
+
+    // This function makes sure that the code gets the data as json
+    public function getData(IncomingRequest $request){
+        $input = $request->getPost();
+        
+        if (empty($input)) {
+            //convert request body to associative array
+            $input = json_decode($request->getBody(), true);
+        }
+
+        return $input;
+    }
 }

@@ -11,6 +11,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
   <title>Document</title>
 </head>
@@ -105,10 +106,40 @@
       </div>
     </div>
   </div>
+
+  <br>
+  <div class="text-center">
+    <button class="btn btn-dark" id="showUsers">Show users</button>
+    <br>
+    <br>
+
+    <div class="card text-center" style="width: 100%;">
+      <ul class="list-group list-group-flush" id="listOfUsers"></ul>
+    </div>
+  </div>
 </body>
 
 <script>
   $(document).ready(function() {
+
+    function getUsers() {
+      axios.post('http://localhost/CodeIgniter/public/users')
+        .then((response) => {
+          $("#listOfUsers").empty();
+          for (var user of response.data) {
+            console.log("UserName: " + user.name + "  UserEmail: " + user.email);
+            $("#listOfUsers").append(`<li class="list-group-item">UserName: ${user.name}</li>`);
+            $("#listOfUsers").append(`<li class="list-group-item">UserEmail: ${user.email}</li>`);
+            $("#listOfUsers").append(`<br>`);
+          }
+        }, (error) => {
+          console.log(error);
+        });
+
+    }
+
+
+
     // Getting the input data when the submit button is clicked
     // Sign in Ajax
     $("#submit_sign_in").click(function() {
@@ -133,11 +164,16 @@
         cache: false,
         success: function(data) {
           alert(data);
+          $("#name2").empty();
+          $("#phone_number2").empty();
+          $("#email2").empty();
+          $("#password2").empty();
         },
         error: function(e, status, error) {
           console.error(e);
         },
       });
+      getUsers();
     });
 
     // Logga in Ajax
@@ -165,6 +201,20 @@
         },
       });
     });
+
+    // Get list of all the users
+    var state = true
+    $("#showUsers").on("click", function() {
+      if (state) {
+        getUsers();
+        state = false
+      } else {
+        $("#listOfUsers").empty();
+        state = true
+      }
+    });
+
+
   });
 </script>
 

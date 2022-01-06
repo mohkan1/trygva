@@ -1,0 +1,100 @@
+CRITICAL - 2022-01-04 14:17:51 --> Undefined property: App\Controllers\users::$load
+#0 C:\server\htdocs\CodeIgniter\app\Controllers\users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\server\\htdoc...', 40, Array)
+#1 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\users->check()
+#2 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#3 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\server\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 14:17:53 --> Undefined property: App\Controllers\users::$load
+#0 C:\server\htdocs\CodeIgniter\app\Controllers\users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\server\\htdoc...', 40, Array)
+#1 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\users->check()
+#2 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#3 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\server\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 14:17:53 --> Undefined property: App\Controllers\users::$load
+#0 C:\server\htdocs\CodeIgniter\app\Controllers\users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\server\\htdoc...', 40, Array)
+#1 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\users->check()
+#2 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#3 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\server\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 14:17:53 --> Undefined property: App\Controllers\users::$load
+#0 C:\server\htdocs\CodeIgniter\app\Controllers\users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\server\\htdoc...', 40, Array)
+#1 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\users->check()
+#2 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#3 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\server\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 14:17:53 --> Undefined property: App\Controllers\users::$load
+#0 C:\server\htdocs\CodeIgniter\app\Controllers\users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\server\\htdoc...', 40, Array)
+#1 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\users->check()
+#2 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#3 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\server\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 14:17:54 --> Undefined property: App\Controllers\users::$load
+#0 C:\server\htdocs\CodeIgniter\app\Controllers\users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\server\\htdoc...', 40, Array)
+#1 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\users->check()
+#2 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#3 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\server\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 14:17:54 --> Undefined property: App\Controllers\users::$load
+#0 C:\server\htdocs\CodeIgniter\app\Controllers\users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\server\\htdoc...', 40, Array)
+#1 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\users->check()
+#2 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#3 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\server\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 14:17:54 --> Undefined property: App\Controllers\users::$load
+#0 C:\server\htdocs\CodeIgniter\app\Controllers\users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\server\\htdoc...', 40, Array)
+#1 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\users->check()
+#2 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#3 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\server\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 14:18:10 --> Undefined property: App\Controllers\users::$load
+#0 C:\server\htdocs\CodeIgniter\app\Controllers\users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\server\\htdoc...', 40, Array)
+#1 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\users->check()
+#2 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#3 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\server\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 14:18:11 --> Undefined property: App\Controllers\users::$load
+#0 C:\server\htdocs\CodeIgniter\app\Controllers\users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\server\\htdoc...', 40, Array)
+#1 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\users->check()
+#2 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#3 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\server\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-04 14:40:01 --> Column 'name' cannot be null
+CRITICAL - 2022-01-04 14:40:01 --> Column 'name' cannot be null
+#0 C:\server\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\server\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\server\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\server\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\server\htdocs\CodeIgniter\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\server\htdocs\CodeIgniter\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\server\htdocs\CodeIgniter\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\server\htdocs\CodeIgniter\app\Controllers\users.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\users->create()
+#9 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#10 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\server\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-01-04 18:21:43 --> Column 'phone_number' cannot be null
+CRITICAL - 2022-01-04 18:21:43 --> Column 'phone_number' cannot be null
+#0 C:\server\htdocs\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\server\htdocs\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\server\htdocs\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\server\htdocs\CodeIgniter\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\server\htdocs\CodeIgniter\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\server\htdocs\CodeIgniter\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\server\htdocs\CodeIgniter\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\server\htdocs\CodeIgniter\app\Controllers\users.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\users->create()
+#9 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#10 C:\server\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\server\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
